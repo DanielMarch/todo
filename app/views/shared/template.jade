@@ -6,7 +6,12 @@ html
     link(href='/css/normalize.css', rel='stylesheet')
     link(href='/css/buttons.css', rel='stylesheet')
     link(href='/less/app.css', rel='stylesheet')
-  body
+  body(style='background-image:url(/img/bm.gif);')
+    nav
+    span
+      a.nav(href='/tasks') Task List
+    span
+      a.nav(href='/priorities') Priorities
     block content
 
     script(src='/js/vendor/jquery-2.1.1.js')
